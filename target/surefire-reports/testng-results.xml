@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MavenTest.MavenTest.NewTest" duration-ms="12199" started-at="2020-03-10T20:31:23 IST" finished-at="2020-03-10T20:31:35 IST">
+  <suite name="MavenTest.MavenTest.NewTest" duration-ms="12907" started-at="2020-03-10T21:40:26 IST" finished-at="2020-03-10T21:40:39 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="12199" started-at="2020-03-10T20:31:23 IST" finished-at="2020-03-10T20:31:35 IST">
+    <test name="Command line test" duration-ms="12907" started-at="2020-03-10T21:40:26 IST" finished-at="2020-03-10T21:40:39 IST">
       <class name="MavenTest.MavenTest.NewTest">
-        <test-method status="PASS" signature="EnvironmentSetup()[pri:0, instance:MavenTest.MavenTest.NewTest@14b1c02]" name="EnvironmentSetup" duration-ms="12168" started-at="2020-03-10T20:31:23 IST" finished-at="2020-03-10T20:31:35 IST">
+        <test-method status="PASS" signature="EnvironmentSetup()[pri:0, instance:MavenTest.MavenTest.NewTest@14b1c02]" name="EnvironmentSetup" duration-ms="12876" started-at="2020-03-10T21:40:26 IST" finished-at="2020-03-10T21:40:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnvironmentSetup -->
