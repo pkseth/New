@@ -21,7 +21,7 @@ public class NewTest {
 		capabilities.setCapability(ChromeOptions.CAPABILITY, options); */
 		//ChromeDriver driver = new ChromeDriver(capabilities);
 		
-		File file = new File("C:\\Users\\Prince\\workspace\\MavenTest\\WebDriver\\chromedriver.exe"); 
+		File file = new File("C:/Users/Prince/workspace/Maven/WebDriver/chromedriver.exe"); 
 	  	System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());		
 	  	ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");

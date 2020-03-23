@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10161" started-at="2020-03-23T11:15:24Z" finished-at="2020-03-23T11:15:34Z">
+  <suite name="Default suite" duration-ms="8380" started-at="2020-03-23T12:37:59Z" finished-at="2020-03-23T12:38:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10161" started-at="2020-03-23T11:15:24Z" finished-at="2020-03-23T11:15:34Z">
+    <test name="Default test" duration-ms="8380" started-at="2020-03-23T12:37:59Z" finished-at="2020-03-23T12:38:08Z">
       <class name="mavenPkg.NewTest">
-        <test-method status="PASS" signature="EnvironmentSetup()[pri:0, instance:mavenPkg.NewTest@38203]" name="EnvironmentSetup" duration-ms="10113" started-at="2020-03-23T16:45:24Z" finished-at="2020-03-23T16:45:34Z">
+        <test-method status="PASS" signature="EnvironmentSetup()[pri:0, instance:mavenPkg.NewTest@14b1c02]" name="EnvironmentSetup" duration-ms="8348" started-at="2020-03-23T18:07:59Z" finished-at="2020-03-23T18:08:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnvironmentSetup -->
       </class> <!-- mavenPkg.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
