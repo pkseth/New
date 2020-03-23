@@ -15,15 +15,13 @@ public class NewTest {
 	@Test
 	public void EnvironmentSetup() throws IOException
 	{ 	
-		/*ChromeOptions options = new ChromeOptions();
-		options.setBinary("C:/Users/Prince/AppData/Local/Google/Chrome/Application/chrome.exe");
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setCapability(ChromeOptions.CAPABILITY, options); */
-		//ChromeDriver driver = new ChromeDriver(capabilities);
-		
+				
+		ChromeOptions chromeOptions= new ChromeOptions();
+		chromeOptions.setBinary("C:/Users/Prince/AppData/Local/Google/Chrome/Application/chrome.exe");
+				
 		File file = new File("C:/Users/Prince/workspace/Maven/WebDriver/chromedriver.exe"); 
 	  	System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());		
-	  	ChromeDriver driver=new ChromeDriver();
+	  	ChromeDriver driver=new ChromeDriver(chromeOptions);
 		driver.get("https://www.google.com");
 		String Title=driver.getTitle();
 		if (Title.contains("Google")){
