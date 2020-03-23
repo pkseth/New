@@ -3,8 +3,6 @@ package mavenPkg;
 
 import org.testng.annotations.Test;
 
-import bsh.Capabilities;
-
 import java.io.File;
 import java.io.IOException;
 import org.openqa.selenium.WebDriver;
